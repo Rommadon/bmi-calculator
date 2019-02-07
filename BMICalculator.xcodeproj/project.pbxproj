@@ -12,6 +12,10 @@
 		E5C4651821F9B69E001480C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C4651621F9B69E001480C2 /* Main.storyboard */; };
 		E5C4651A21F9B6A1001480C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C4651921F9B6A1001480C2 /* Assets.xcassets */; };
 		E5C4651D21F9B6A1001480C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C4651B21F9B6A1001480C2 /* LaunchScreen.storyboard */; };
+		E5C5F052220C0D31000444FE /* underweight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5C5F051220C0D31000444FE /* underweight.jpg */; };
+		E5C5F054220C0D47000444FE /* healthy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5C5F053220C0D47000444FE /* healthy.jpg */; };
+		E5C5F056220C0D54000444FE /* Overweight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5C5F055220C0D54000444FE /* Overweight.jpg */; };
+		E5C5F058220C0D61000444FE /* Obese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5C5F057220C0D60000444FE /* Obese.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E5C4651921F9B6A1001480C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C4651C21F9B6A1001480C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C4651E21F9B6A1001480C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C5F051220C0D31000444FE /* underweight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = underweight.jpg; sourceTree = "<group>"; };
+		E5C5F053220C0D47000444FE /* healthy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = healthy.jpg; sourceTree = "<group>"; };
+		E5C5F055220C0D54000444FE /* Overweight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Overweight.jpg; sourceTree = "<group>"; };
+		E5C5F057220C0D60000444FE /* Obese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Obese.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		E5C4651121F9B69E001480C2 /* BMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E5C5F051220C0D31000444FE /* underweight.jpg */,
+				E5C5F055220C0D54000444FE /* Overweight.jpg */,
+				E5C5F057220C0D60000444FE /* Obese.jpg */,
+				E5C5F053220C0D47000444FE /* healthy.jpg */,
 				E5C4651221F9B69E001480C2 /* AppDelegate.swift */,
 				E5C4651421F9B69E001480C2 /* ViewController.swift */,
 				E5C4651621F9B69E001480C2 /* Main.storyboard */,
@@ -122,8 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C5F052220C0D31000444FE /* underweight.jpg in Resources */,
 				E5C4651D21F9B6A1001480C2 /* LaunchScreen.storyboard in Resources */,
 				E5C4651A21F9B6A1001480C2 /* Assets.xcassets in Resources */,
+				E5C5F058220C0D61000444FE /* Obese.jpg in Resources */,
+				E5C5F056220C0D54000444FE /* Overweight.jpg in Resources */,
+				E5C5F054220C0D47000444FE /* healthy.jpg in Resources */,
 				E5C4651821F9B69E001480C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
